@@ -8,3 +8,6 @@ def encoder(password):
     return pw_return
 
 
+def main():
+    
+
