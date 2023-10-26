@@ -1,3 +1,4 @@
+# Paola Bechalani
 def encoder(password):
     pw_return = ""
     value = 0
