@@ -12,7 +12,7 @@ def encoder(password):
 
     
 
-
+# Daphne Calin
 def decoder(password):
     pw_return = ""
     value = 0
