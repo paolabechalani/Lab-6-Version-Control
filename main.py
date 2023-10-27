@@ -23,4 +23,21 @@ def decoder(password):
 
 
 def main():
-    pass
+    option = ""
+    pw = ''
+    while option != "3":
+        print("Menu\n-------------\n1. Encode\n2. Decode\n3. Quit")
+        option = input("Please enter an option:")
+
+        if option == "1":
+            pw = input("Please enter your password to encode: ")
+            print("Your password has been encoded and stored!")
+            pw = encoder(pw)
+        elif option == "2":
+            print(f'The encoded password is {pw}, and the original password is {decoder(pw)}.')  # needs decoder function to be implemented
+        elif option == "3":
+            break
+
+
+if __name__ == "__main__":
+    main()
